@@ -8,7 +8,7 @@ class people::coreone {
     include googledrive
     include hipchat
     include jumpcut
-    include pivotalbooster
+#    include pivotalbooster
     include sequel_pro
     include spotify
     include wget
