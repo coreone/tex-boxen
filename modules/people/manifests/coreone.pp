@@ -1,7 +1,10 @@
 class people::coreone {
-    include spotify
-    include sequel_pro
+    include cord
+    include fitbit
+    include googledrive
     include hipchat
+    include sequel_pro
+    include spotify
 
 #    case $::hostname {
 #        'wm833-7ea', 'texmba': {
