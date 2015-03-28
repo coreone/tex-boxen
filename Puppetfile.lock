@@ -89,6 +89,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tunnelblick
+  specs:
+    tunnelblick (1.0.7)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -130,5 +135,6 @@ DEPENDENCIES
   spotify (= 1.0.2)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  tunnelblick (= 1.0.7)
   xquartz (= 1.2.1)
 
