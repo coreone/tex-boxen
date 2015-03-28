@@ -61,10 +61,12 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "cord",        "1.0.0"
+github "cyberduck",   "1.0.1"
+github "dropbox",     "1.4.1"
+github "fitbit",      "1.0.0"
+github "googledrive", "1.0.2"
+github "hipchat",     "1.1.3"
+github "sequel_pro",  "1.0.1"
 github "spotify",     "1.0.2"
 github "tunnelblick", "1.0.7"
-github "sequel_pro",  "1.0.1"
-github "hipchat",     "1.1.3"
-github "googledrive", "1.0.2"
-github "fitbit",      "1.0.0"
-github "cord",        "1.0.0"
