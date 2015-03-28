@@ -79,6 +79,11 @@ GITHUBTARBALL
     ruby (8.1.7)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -122,6 +127,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   repository (= 2.3.0)
   ruby (= 8.1.7)
+  spotify (= 1.0.2)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   xquartz (= 1.2.1)

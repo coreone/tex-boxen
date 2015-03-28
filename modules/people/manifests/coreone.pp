@@ -1,1 +1,3 @@
-include spotify
+class people::coreone {
+    include spotify
+}
