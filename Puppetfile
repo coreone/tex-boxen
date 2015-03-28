@@ -62,3 +62,4 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 github "spotify",     "1.0.2"
+github "tunnelblick", "1.0.7"
