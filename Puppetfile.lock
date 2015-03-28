@@ -34,6 +34,11 @@ GITHUBTARBALL
     dropbox (1.4.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-fish
+  specs:
+    fish (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-fitbit
   specs:
     fitbit (1.0.0)
@@ -77,6 +82,11 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-jumpcut
+  specs:
+    jumpcut (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -129,6 +139,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -156,6 +171,7 @@ DEPENDENCIES
   dnsmasq (= 2.0.1)
   dockutil (= 0.2.1)
   dropbox (= 1.4.1)
+  fish (= 1.0.0)
   fitbit (= 1.0.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
@@ -166,6 +182,7 @@ DEPENDENCIES
   homebrew (= 1.11.2)
   hub (= 1.4.0)
   inifile (= 1.1.1)
+  jumpcut (= 1.0.0)
   module_data (= 0.0.3)
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
@@ -178,5 +195,6 @@ DEPENDENCIES
   spotify (= 1.0.2)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  wget (= 1.0.1)
   xquartz (= 1.2.1)
 
