@@ -1,6 +1,6 @@
 class people::coreone {
     include cord
-    include cyberduck
+#    include cyberduck
     include dropbox
     include fitbit
     include googledrive
