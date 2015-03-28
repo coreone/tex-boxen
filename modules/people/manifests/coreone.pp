@@ -12,24 +12,28 @@ class people::coreone {
     dockutil::item { 'Add HipChat':
         item     => "/Applications/HipChat.app",
         label    => "HipChat",
-        action   => "add"
+        action   => "add",
+        position => 7
     }
 
     dockutil::item { 'Add Firefox':
         item     => "/Applications/Firefox.app",
         label    => "Firefox",
-        action   => "add"
+        action   => "add",
+        position => 9
     }
 
     dockutil::item { 'Add Chrome':
         item     => "/Applications/Google Chrome.app",
         label    => "Chrome",
-        action   => "add"
+        action   => "add",
+        position => 10
     }
 
     dockutil::item { 'Add CoRD':
         item     => "/Applications/CoRD.app",
         label    => "CoRD",
-        action   => "add"
+        action   => "add",
+        position => 11
     }
 }
