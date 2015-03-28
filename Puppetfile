@@ -63,3 +63,4 @@ github "xquartz",     "1.2.1"
 
 github "spotify",     "1.0.2"
 github "tunnelblick", "1.0.7"
+github "sequel_pro",  "1.0.1"
