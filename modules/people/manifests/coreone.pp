@@ -3,11 +3,14 @@ class people::coreone {
 #    include cyberduck
     include dockutil
     include dropbox
+    include fish
     include fitbit
     include googledrive
     include hipchat
+    include jumpcut
     include sequel_pro
     include spotify
+    include wget
 
     dockutil::item { 'Add HipChat':
         item     => "/Applications/HipChat.app",
