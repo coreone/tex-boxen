@@ -3,7 +3,7 @@ GIT
   ref: master
   sha: 406183dd621fa439fb4650aa06694f7b7ba35455
   specs:
-    dockutil (0.0.1)
+    coreone-dockutil (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -174,9 +174,9 @@ DEPENDENCIES
   boxen (= 3.10.2)
   brewcask (= 0.0.6)
   cord (= 1.0.0)
+  coreone-dockutil (>= 0)
   cyberduck (= 1.0.1)
   dnsmasq (= 2.0.1)
-  dockutil (>= 0)
   dropbox (= 1.4.1)
   fish (= 1.0.0)
   fitbit (= 1.0.0)
