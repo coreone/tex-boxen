@@ -63,7 +63,7 @@ github "xquartz",     "1.2.1"
 
 github "cord",        "1.0.0"
 github "cyberduck",   "1.0.1"
-github "dockutil",    "", :repo => "coreone/puppet-dockutil"
+github "dockutil",    :repo => "coreone/puppet-dockutil"
 github "dropbox",     "1.4.1"
 github "fish",        "1.0.0"
 github "fitbit",      "1.0.0"
