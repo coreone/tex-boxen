@@ -1,7 +1,9 @@
-PATH
-  remote: /Users/teixeira/src/boxen/puppet-dockutil
+GIT
+  remote: git://github.com/coreone/puppet-dockutil.git
+  ref: master
+  sha: 406183dd621fa439fb4650aa06694f7b7ba35455
   specs:
-    puppet-dockutil (0.0.1)
+    dockutil (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -174,6 +176,7 @@ DEPENDENCIES
   cord (= 1.0.0)
   cyberduck (= 1.0.1)
   dnsmasq (= 2.0.1)
+  dockutil (>= 0)
   dropbox (= 1.4.1)
   fish (= 1.0.0)
   fitbit (= 1.0.0)
@@ -194,7 +197,6 @@ DEPENDENCIES
   phantomjs (= 2.3.0)
   pivotalbooster (= 1.0.4)
   pkgconfig (= 1.0.0)
-  puppet-dockutil (>= 0)
   repository (= 2.3.0)
   ruby (= 8.1.7)
   sequel_pro (= 1.0.1)
