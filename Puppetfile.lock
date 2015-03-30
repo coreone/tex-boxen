@@ -1,3 +1,8 @@
+PATH
+  remote: coreone/puppet-dockutil
+  specs:
+    dockutil (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
@@ -169,6 +174,7 @@ DEPENDENCIES
   cord (= 1.0.0)
   cyberduck (= 1.0.1)
   dnsmasq (= 2.0.1)
+  dockutil (>= 0)
   dropbox (= 1.4.1)
   fish (= 1.0.0)
   fitbit (= 1.0.0)
