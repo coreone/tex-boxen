@@ -17,27 +17,48 @@ class people::coreone {
         item     => "/Applications/HipChat.app",
         label    => "HipChat",
         action   => "add",
-        position => 7
-    }
-
-    dockutil::item { 'Add Firefox':
-        item     => "/Applications/Firefox.app",
-        label    => "Firefox",
-        action   => "add",
-        position => 9
+        position => 4
     }
 
     dockutil::item { 'Add Chrome':
         item     => "/Applications/Google Chrome.app",
-        label    => "Chrome",
+        label    => "Google Chrome",
         action   => "add",
-        position => 10
+        position => 5
+    }
+
+    dockutil::item { 'Add Terminal':
+        item     => "/Applications/Utilities/Terminal.app",
+        label    => "Terminal",
+        action   => "add",
+        position => 7
+    }
+
+    dockutil::item { 'Add Sublime Text':
+        item     => "/Applications/Sublime Text 2.app",
+        label    => "Sublime Text 2",
+        action   => "add",
+        position => 8
     }
 
     dockutil::item { 'Add CoRD':
         item     => "/Applications/CoRD.app",
         label    => "CoRD",
         action   => "add",
-        position => 11
+        position => 9
+    }
+
+    dockutil::item { 'Add Sequel Pro':
+        item     => "/Applications/Sequel Pro.app",
+        label    => "Sequel Pro",
+        action   => "add",
+        position => 10
+    }
+
+    dockutil::item { 'Add Spotify':
+        item     => "/Applications/Spotify.app",
+        label    => "Spotify",
+        action   => "add",
+        position => 13
     }
 }
