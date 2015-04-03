@@ -61,4 +61,47 @@ class people::coreone {
         action   => "add",
         position => 13
     }
+
+    ruby_gem { 'activesupport for all rubies':
+        gem          => 'activesupport',
+        version      => '4.0.4',
+        ruby_version => '*'
+    }
+
+    ruby_gem { 'conjur-cli for all rubies':
+        gem          => 'conjur-cli',
+        version      => '4.5.1',
+        ruby_version => '*'
+    }
+
+    ruby_gem { 'conjur-asset-environment-api for all rubies':
+        gem          => 'conjur-asset-environment-api',
+        ruby_version => '*'
+    }
+
+    ruby_gem { 'conjur-asset-key-pair-api for all rubies':
+        gem          => 'conjur-asset-key-pair-api',
+        ruby_version => '*'
+    }
+
+    ruby_gem { 'conjur-asset-service-gateway-api for all rubies':
+        gem          => 'conjur-asset-service-gateway-api',
+        ruby_version => '*'
+    }
+
+    ruby_gem { 'conjur-asset-layer-api for all rubies':
+        gem          => 'conjur-asset-layer-api',
+        ruby_version => '*'
+    }
+
+    ruby_gem { 'conjur-asset-deployment-api for all rubies':
+        gem          => 'conjur-asset-deployment-api',
+        ruby_version => '*'
+    }
+
+    ruby_gem { 'conjur-api for all rubies':
+        gem          => 'conjur-api',
+        ruby_version => '*'
+    }
+
 }
