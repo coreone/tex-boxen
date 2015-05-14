@@ -13,16 +13,73 @@ class people::coreone {
     include spotify
     include wget
 
-    dockutil::item { 'Add HipChat':
-        item     => "/Applications/HipChat.app",
-        label    => "HipChat",
+    dockutil::item { 'Remove Mail':
+        item     => "/Applications/Mail.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove Contacts':
+        item     => "/Applications/Contacts.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove Calendar':
+        item     => "/Applications/Calendar.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove Notes':
+        item     => "/Applications/Notes.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove Reminders':
+        item     => "/Applications/Reminders.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove Maps':
+        item     => "/Applications/Maps.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove Photos':
+        item     => "/Applications/Photos.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove Messages':
+        item     => "/Applications/Messages.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove FaceTime':
+        item     => "/Applications/FaceTime.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Remove iBooks':
+        item     => "/Applications/iBooks.app",
+        action   => "remove"
+    }
+
+    dockutil::item { 'Add Safari':
+        item     => "/Applications/Safari.app",
+        label    => "Safari",
         action   => "add",
-        position => 4
+        position => 3
     }
 
     dockutil::item { 'Add Chrome':
         item     => "/Applications/Google Chrome.app",
         label    => "Google Chrome",
+        action   => "add",
+        position => 4
+    }
+
+    dockutil::item { 'Add HipChat':
+        item     => "/Applications/HipChat.app",
+        label    => "HipChat",
         action   => "add",
         position => 5
     }
@@ -31,35 +88,35 @@ class people::coreone {
         item     => "/Applications/Utilities/Terminal.app",
         label    => "Terminal",
         action   => "add",
-        position => 7
+        position => 6
     }
 
     dockutil::item { 'Add Sublime Text':
         item     => "/Applications/Sublime Text 2.app",
         label    => "Sublime Text 2",
         action   => "add",
-        position => 8
+        position => 7
     }
 
     dockutil::item { 'Add CoRD':
         item     => "/Applications/CoRD.app",
         label    => "CoRD",
         action   => "add",
-        position => 9
+        position => 8
     }
 
     dockutil::item { 'Add Sequel Pro':
         item     => "/Applications/Sequel Pro.app",
         label    => "Sequel Pro",
         action   => "add",
-        position => 10
+        position => 9
     }
 
     dockutil::item { 'Add Spotify':
         item     => "/Applications/Spotify.app",
         label    => "Spotify",
         action   => "add",
-        position => 13
+        position => 10
     }
 
     ruby_gem { 'activesupport for all rubies':
