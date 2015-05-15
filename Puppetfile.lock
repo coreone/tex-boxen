@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/coreone/puppet-dockutil.git
-  ref: master
-  sha: 406183dd621fa439fb4650aa06694f7b7ba35455
+  remote: git://github.com/coreone/puppet-robomongo.git
+  ref: 1.0.0
+  sha: 714dd120ecfe883ef074f26ee27df69f6a624ca4
   specs:
-    coreone-dockutil (0.0.1)
+    coreone-robomongo (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -29,6 +29,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dockutil
+  specs:
+    dockutil (0.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
@@ -174,9 +179,10 @@ DEPENDENCIES
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
   cord (= 1.0.0)
-  coreone-dockutil (>= 0)
+  coreone-robomongo (>= 0)
   cyberduck (= 1.0.1)
   dnsmasq (= 2.0.1)
+  dockutil (= 0.2.0)
   dropbox (= 1.4.1)
   fish (= 1.0.0)
   fitbit (= 1.0.0)
@@ -205,3 +211,4 @@ DEPENDENCIES
   sudo (= 1.0.0)
   wget (= 1.0.1)
   xquartz (= 1.2.1)
+
