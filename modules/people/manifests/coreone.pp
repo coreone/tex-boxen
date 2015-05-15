@@ -9,6 +9,7 @@ class people::coreone {
     include hipchat
     include jumpcut
 #    include pivotalbooster
+    include robomongo
     include sequel_pro
     include spotify
     include wget
