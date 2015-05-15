@@ -16,61 +16,61 @@ class people::coreone {
 
     dockutil::item { 'Remove Mail':
         item     => "/Applications/Mail.app",
-	label    => "Mail",
+        label    => "Mail",
         action   => "remove"
     }
 
     dockutil::item { 'Remove Contacts':
         item     => "/Applications/Contacts.app",
-	label    => "Contacts",
+        label    => "Contacts",
         action   => "remove"
     }
 
     dockutil::item { 'Remove Calendar':
         item     => "/Applications/Calendar.app",
-	label    => "Calendar",
+        label    => "Calendar",
         action   => "remove"
     }
 
     dockutil::item { 'Remove Notes':
         item     => "/Applications/Notes.app",
-	label    => "Notes",
+        label    => "Notes",
         action   => "remove"
     }
 
     dockutil::item { 'Remove Reminders':
         item     => "/Applications/Reminders.app",
-	label    => "Reminders",
+        label    => "Reminders",
         action   => "remove"
     }
 
     dockutil::item { 'Remove Maps':
         item     => "/Applications/Maps.app",
-	label    => "Maps",
+        label    => "Maps",
         action   => "remove"
     }
 
     dockutil::item { 'Remove Photos':
         item     => "/Applications/Photos.app",
-	label    => "Photos",
+        label    => "Photos",
         action   => "remove"
     }
 
     dockutil::item { 'Remove Messages':
         item     => "/Applications/Messages.app",
-	label    => "Messages",
+        label    => "Messages",
         action   => "remove"
     }
 
     dockutil::item { 'Remove FaceTime':
         item     => "/Applications/FaceTime.app",
-	label    => "FaceTime",
+        label    => "FaceTime",
         action   => "remove"
     }
 
     dockutil::item { 'Remove iBooks':
         item     => "/Applications/iBooks.app",
-	label    => "iBooks",
+        label    => "iBooks",
         action   => "remove"
     }
 
@@ -136,11 +136,11 @@ class people::coreone {
         ruby_version => '*'
     }
 
-    ruby_gem { 'travis-cli for all rubies':
-        gem          => 'travis',
-        version      => '1.7.6',
-        ruby_version => '*'
-    }
+    # ruby_gem { 'travis-cli for all rubies':
+    #     gem          => 'travis',
+    #     version      => '1.7.6',
+    #     ruby_version => '*'
+    # }
 
 #     ruby_gem { 'conjur-cli for all rubies':
 #         gem          => 'conjur-cli',
