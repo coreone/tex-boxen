@@ -136,6 +136,12 @@ class people::coreone {
         ruby_version => '*'
     }
 
+    ruby_gem { 'travis-cli for all rubies':
+        gem          => 'travis',
+        version      => '1.7.6',
+        ruby_version => '*'
+    }
+
 #     ruby_gem { 'conjur-cli for all rubies':
 #         gem          => 'conjur-cli',
 #         version      => '4.5.1',

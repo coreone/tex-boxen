@@ -72,7 +72,7 @@ github "googledrive", "1.0.2"
 github "hipchat",     "1.1.3"
 github "jumpcut",     "1.0.0"
 github "pivotalbooster", "1.0.4"
-mod 'robomongo', :git => 'git://github.com/coreone/puppet-robomongo.git'
+mod 'coreone-robomongo', :git => 'git://github.com/coreone/puppet-robomongo.git'
 github "sequel_pro",  "1.0.1"
 github "spotify",     "1.0.2"
 github "wget",        "1.0.1"
