@@ -41,6 +41,11 @@ GITHUBTARBALL
     dropbox (1.4.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.2.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-fish
   specs:
     fish (1.0.0)
@@ -184,6 +189,7 @@ DEPENDENCIES
   dnsmasq (= 2.0.1)
   dockutil (= 0.2.0)
   dropbox (= 1.4.1)
+  firefox (= 1.2.3)
   fish (= 1.0.0)
   fitbit (= 1.0.0)
   foreman (= 1.2.0)

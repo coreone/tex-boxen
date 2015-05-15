@@ -3,6 +3,7 @@ class people::coreone {
 #    include cyberduck
     include dockutil
     include dropbox
+    include firefox
     include fish
     include fitbit
     include googledrive
