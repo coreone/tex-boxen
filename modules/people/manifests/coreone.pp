@@ -18,6 +18,29 @@ class people::coreone {
     include sublime_text::v2
     include wget
 
+    $sublimeConfDir = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
+    $structure = [ "${sublimeConfDir}", "${sublimeConfDir}/Packages" ]
+
+    file { $structure:
+        ensure  => 'directory',
+        owner   => "${::luser}",
+        mode    => '0755'
+    }->
+    file { "${sublimeConfDir}/Packages/User/Preferences.sublime-settings":
+      content  => '
+{
+    "color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+    "font_size": 12.0,
+    "trim_trailing_white_space_on_save": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ]
+}'
+
+    }
     # sublime_text::v2::package { 'Emmet':
     #     source => 'sergeche/emmet-sublime'
     # }
