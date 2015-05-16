@@ -39,6 +39,7 @@ class people::coreone {
         "Vintage"
     ]
 }'
+    }
 
     $dockitems = hiera_hash('dockitems', {})
     create_resources('dockutil::item', $dockitems)
