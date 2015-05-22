@@ -14,6 +14,7 @@ class people::coreone {
 #    include pivotalbooster
     include robomongo
     include sequel_pro
+    include shiftit
     include spotify
     include sublime_text::v2
     include wget

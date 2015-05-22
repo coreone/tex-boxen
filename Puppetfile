@@ -78,6 +78,7 @@ github "osx",            "2.8.0"
 github "pivotalbooster", "1.0.4"
 mod 'coreone-robomongo', :git => 'git://github.com/coreone/puppet-robomongo.git', :ref => '1.0.0'
 github "sequel_pro",     "1.0.1"
+mod 'coreone-shiftit', :git => 'git://github.com/coreone/puppet-shiftit.git'
 github "spotify",        "1.0.2"
 github "sublime_text",   "1.1.0"
 github "wget",           "1.0.1"

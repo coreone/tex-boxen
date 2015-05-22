@@ -5,6 +5,13 @@ GIT
   specs:
     coreone-robomongo (0.0.1)
 
+GIT
+  remote: git://github.com/coreone/puppet-shiftit.git
+  ref: master
+  sha: faf24059b56104d125b48692b3b162550ad8db0f
+  specs:
+    coreone-shiftit (0.0.1)
+
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
@@ -202,6 +209,7 @@ DEPENDENCIES
   chrome (= 1.2.0)
   cord (= 1.0.0)
   coreone-robomongo (>= 0)
+  coreone-shiftit (>= 0)
   cyberduck (= 1.0.1)
   dnsmasq (= 2.0.1)
   dockutil (= 0.2.0)
