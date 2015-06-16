@@ -7,11 +7,11 @@ rubygems:
         ruby_version: '*'
     'travis for ruby 1.9.3':
         gem : 'travis'
-        version: '1.7.6'
+        version: '1.7.7'
         ruby_version: '1.9.3'
     'travis for ruby 2.0.0':
         gem : 'travis'
-        version: '1.7.6'
+        version: '1.7.7'
         ruby_version: '2.0.0'
     # 'conjur-cli for all rubies':
     #     gem: 'conjur-cli'
