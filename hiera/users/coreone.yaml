@@ -13,6 +13,14 @@ rubygems:
         gem : 'travis'
         version: '1.7.7'
         ruby_version: '2.0.0'
+    'hiera-eyaml for ruby 1.9.3':
+        gem : 'hiera-eyaml'
+        version: '2.0.8'
+        ruby_version: '1.9.3'
+    'hiera-eyaml for ruby 2.0.0':
+        gem : 'hiera-eyaml'
+        version: '2.0.8'
+        ruby_version: '2.0.0'
     # 'conjur-cli for all rubies':
     #     gem: 'conjur-cli'
     #     version: '4.5.1'
