@@ -81,4 +81,5 @@ github "sequel_pro",     "1.0.1"
 mod 'coreone-shiftit', :git => 'git://github.com/coreone/puppet-shiftit.git'
 github "spotify",        "1.0.2"
 github "sublime_text",   "1.1.0"
+github "vagrant",        "3.3.3"
 github "wget",           "1.0.1"

@@ -17,6 +17,7 @@ class people::coreone {
     include shiftit
     include spotify
     include sublime_text::v2
+    include vagrant
     include wget
 
     $sublimeConfDir = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
