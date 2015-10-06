@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/coreone/puppet-docker_toolbox.git
+  ref: master
+  sha: aa1daec5fb968cdcccaecf010cfbaeb2861ce8e7
+  specs:
+    coreone-docker_toolbox (0.0.1)
+
+GIT
   remote: git://github.com/coreone/puppet-robomongo.git
   ref: 1.0.0
   sha: 714dd120ecfe883ef074f26ee27df69f6a624ca4
@@ -213,6 +220,7 @@ DEPENDENCIES
   brewcask (= 0.0.6)
   chrome (= 1.2.0)
   cord (= 1.0.0)
+  coreone-docker_toolbox (>= 0)
   coreone-robomongo (>= 0)
   coreone-shiftit (>= 0)
   cyberduck (= 1.0.1)
