@@ -65,7 +65,7 @@ github "brewcask",       "0.0.6"
 github "chrome",         "1.2.0"
 github "cord",           "1.0.0"
 github "cyberduck",      "1.0.1"
-mod 'docker_toolbox', :git => 'git://github.com/coreone/puppet-docker_toolbox.git'
+#mod 'docker_toolbox', :git => 'git://github.com/coreone/puppet-docker_toolbox.git'
 github "dockutil",       "0.2.0"
 #mod "grahamgilbert-dockutil",          :git => "git://github.com/grahamgilbert/puppet-dockutil.git", :ref => "0.2.0"
 github "dropbox",        "1.4.1"
