@@ -3,6 +3,7 @@ class people::coreone {
     include chrome
     include cord
 #    include cyberduck
+    include docker_toolbox
     include dockutil
     include dropbox
     include firefox
