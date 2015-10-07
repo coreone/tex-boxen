@@ -63,6 +63,7 @@ class people::coreone {
     package {[
 #        'tinkertool',
         'seashore',
+        'graphviz'
     ]:
         provider => 'brewcask',
     }
