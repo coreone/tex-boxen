@@ -55,7 +55,8 @@ class people::coreone {
         'cowsay',
         'docker',
         'docker-machine',
-        'figlet'
+        'figlet',
+        'graphviz'
     ]:
     }
 
@@ -63,7 +64,6 @@ class people::coreone {
     package {[
 #        'tinkertool',
         'seashore',
-        'graphviz'
     ]:
         provider => 'brewcask',
     }
