@@ -21,28 +21,8 @@ rubygems:
         gem : 'hiera-eyaml'
         version: '2.0.8'
         ruby_version: '2.0.0'
-    # 'conjur-cli for all rubies':
-    #     gem: 'conjur-cli'
-    #     version: '4.5.1'
-    #     ruby_version: '*'
-    # 'conjur-asset-environment-api for all rubies':
-    #     gem: 'conjur-asset-environment-api'
-    #     ruby_version: '*'
-    # 'conjur-asset-key-pair-api for all rubies':
-    #     gem: 'conjur-asset-key-pair-api'
-    #     ruby_version: '*'
-    # 'conjur-asset-service-gateway-api for all rubies':
-    #     gem: 'conjur-asset-service-gateway-api'
-    #     ruby_version: '*'
-    # 'conjur-asset-layer-api for all rubies':
-    #     gem: 'conjur-asset-layer-api'
-    #     ruby_version: '*'
-    # 'conjur-asset-deployment-api for all rubies':
-    #     gem: 'conjur-asset-deployment-api'
-    #     ruby_version: '*'
-    # 'conjur-api for all rubies':
-    #     gem: 'conjur-api'
-    #     ruby_version: '*'
+dnsmasq::host: 192.168.99.100
+dnsmasq::tld: local.broadinstitute.org
 dockitems:
     'Remove Calendar':
         item: "/Applications/Calendar.app"
