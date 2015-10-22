@@ -56,7 +56,8 @@ class people::coreone {
         'docker',
         'docker-machine',
         'figlet',
-        'graphviz'
+        'graphviz',
+        'netcat'
     ]:
     }
 
