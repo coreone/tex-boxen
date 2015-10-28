@@ -56,7 +56,6 @@ class people::coreone {
         'docker',
         'docker-machine',
         'figlet',
-        'google-cloud-sdk',
         'graphviz',
         'netcat',
         'vault'
@@ -66,6 +65,7 @@ class people::coreone {
     # Homebrew: Cask (GUI) Apps.....
     package {[
 #        'tinkertool',
+        'google-cloud-sdk',
         'seashore',
     ]:
         provider => 'brewcask',
