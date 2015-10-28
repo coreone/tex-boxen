@@ -65,6 +65,7 @@ class people::coreone {
     package {[
 #        'tinkertool',
         'seashore',
+        'vault',
     ]:
         provider => 'brewcask',
     }
