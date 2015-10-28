@@ -56,6 +56,7 @@ class people::coreone {
         'docker',
         'docker-machine',
         'figlet',
+        'google-cloud-sdk',
         'graphviz',
         'netcat',
         'vault'
