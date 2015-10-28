@@ -57,7 +57,8 @@ class people::coreone {
         'docker-machine',
         'figlet',
         'graphviz',
-        'netcat'
+        'netcat',
+        'vault'
     ]:
     }
 
@@ -65,7 +66,6 @@ class people::coreone {
     package {[
 #        'tinkertool',
         'seashore',
-        'vault',
     ]:
         provider => 'brewcask',
     }
