@@ -103,7 +103,7 @@ dockitems:
         item: "/Users/teixeira/Applications/Chrome Apps.localized/app_list.app"
         label: "Chrome App Launcher"
         action: "add"
-        position: 5
+        position: 4
     'Add Safari':
         item: "/Applications/Safari.app"
         label: "Safari"
