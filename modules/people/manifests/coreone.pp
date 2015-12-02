@@ -66,6 +66,7 @@ class people::coreone {
     package {[
 #        'tinkertool',
         'google-cloud-sdk',
+        'java',
         'seashore',
     ]:
         provider => 'brewcask',
