@@ -8,19 +8,19 @@ rubygems:
     'travis for ruby 1.9.3':
         gem : 'travis'
         version: '1.8.0'
-        ruby_version: '1.9.3'
+        ruby_version: '*'
     'travis for ruby 2.0.0':
         gem : 'travis'
         version: '1.8.0'
-        ruby_version: '2.0.0'
+        ruby_version: '*'
     'hiera-eyaml for ruby 1.9.3':
         gem : 'hiera-eyaml'
         version: '2.0.8'
-        ruby_version: '1.9.3'
+        ruby_version: '*'
     'hiera-eyaml for ruby 2.0.0':
         gem : 'hiera-eyaml'
         version: '2.0.8'
-        ruby_version: '2.0.0'
+        ruby_version: '*'
 dnsmasq::host: 192.168.99.100
 dnsmasq::tld: local.broadinstitute.org
 dockitems:
