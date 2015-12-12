@@ -60,7 +60,7 @@ class people::coreone {
         'netcat',
         'vault'
     ]:
-	version => 'latest'
+	ensure => 'latest'
     }
 
     # Homebrew: Cask (GUI) Apps.....
